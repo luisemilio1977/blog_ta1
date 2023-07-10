@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('template') 
 
 @section('content')
     <h1>Crear Post</h1>

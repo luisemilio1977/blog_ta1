@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('template') 
 
 @section('content')
     <h1>Meses con Publicaciones</h1>

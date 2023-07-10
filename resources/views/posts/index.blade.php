@@ -1,5 +1,4 @@
-@extends('layouts.app')
-
+@extends('template') 
 @section('content')
     <h1>Lista de Posts</h1>
 

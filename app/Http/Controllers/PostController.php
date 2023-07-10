@@ -28,9 +28,9 @@ class PostController extends Controller
         ]);
 
         $post = new Post();
+        $post->author_id = Auth::id();
         $post->title = $request->input('title');
         $post->body = $request->input('body');
-        $post->author_id = Auth::id();
         $post->save();
 
         return redirect()->route('posts.index');
